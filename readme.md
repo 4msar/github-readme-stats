@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" width="100px" alt="GitHub Readme Stats" />
+  <img src="https://res.cloudinary.com/4msar/image/upload/v1594908242/logo_ccswme.svg" width="100px" alt="GitHub Readme Stats" />
   <h1 style="font-size: 28px; margin: 10px 0;">GitHub Readme Stats</h1>
   <p>Get dynamically generated GitHub stats on your READMEs!</p>
 </div>
@@ -9,19 +9,19 @@
     <img alt="Tests Passing" src="https://github.com/4msar/github-readme-stats/workflows/Test/badge.svg" />
   </a>
   <a href="https://github.com/4msar/github-readme-stats/graphs/contributors">
-    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/anuraghazra/github-readme-stats" />
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/4msar/github-readme-stats" />
   </a>
-  <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-    <img alt="Tests Coverage" src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+  <a href="https://codecov.io/gh/4msar/github-readme-stats">
+    <img alt="Tests Coverage" src="https://codecov.io/gh/4msar/github-readme-stats/branch/master/graph/badge.svg" />
   </a>
   <a href="https://github.com/4msar/github-readme-stats/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+    <img alt="Issues" src="https://img.shields.io/github/issues/4msar/github-readme-stats?color=0088ff" />
   </a>
   <a href="https://github.com/4msar/github-readme-stats/pulls">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/4msar/github-readme-stats?color=0088ff" />
   </a>
-  <a href="https://securityscorecards.dev/viewer/?uri=github.com/anuraghazra/github-readme-stats">
-    <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/anuraghazra/github-readme-stats/badge" />
+  <a href="https://securityscorecards.dev/viewer/?uri=github.com/4msar/github-readme-stats">
+    <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/4msar/github-readme-stats/badge" />
   </a>
   <br />
   <br />
@@ -42,7 +42,7 @@
   <a href="https://github.com/4msar/github-readme-stats/discussions/new?category=q-a">Ask Question</a>
 </p>
 
-<p align="center">Love the project? Please consider <a href="https://www.paypal.me/anuraghazra">donating</a> to help it improve!</p>
+<p align="center">Love the project? Please consider <a href="https://www.paypal.me/4msar">donating</a> to help it improve!</p>
 
 <details>
 <summary>Table of contents (Click to show)</summary>
@@ -112,7 +112,7 @@ Copy and paste this into your markdown, and that's it. Simple!
 Change the `?username=` value to your GitHub username.
 
 ```md
-[![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra)](https://github.com/4msar/github-readme-stats)
+[![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar)](https://github.com/4msar/github-readme-stats)
 ```
 
 > [!WARNING]
@@ -128,7 +128,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&hide=contribs,prs)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -138,7 +138,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -146,7 +146,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true)
 ```
 
 ### Showing commits count for specified year
@@ -154,7 +154,7 @@ To enable icons, you can pass `&show_icons=true` in the query param, like so:
 You can specify a year and fetch only the commits that were made in that year by passing `&commits_year=YYYY` to the parameter.
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&commits_year=2020)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&commits_year=2020)
 ```
 
 ### Themes
@@ -164,21 +164,21 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
 
 GitHub Readme Stats comes with several built-in themes (e.g. `dark`, `radical`, `merko`, `gruvbox`, `tokyonight`, `onedark`, `cobalt`, `synthwave`, `highcontrast`, `dracula`).
 
-<img src="https://res.cloudinary.com/anuraghazra/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stats Themes" width="600px"/>
+<img src="https://res.cloudinary.com/4msar/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stats Themes" width="600px"/>
 
 You can look at a preview for [all available themes](themes/README.md) or checkout the [theme config file](themes/index.js). Please note that we paused the addition of new themes to decrease maintenance efforts; all pull requests related to new themes will be closed.
 
 #### Responsive Card Theme
 
-[![Anurag's GitHub stats-Dark](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/4msar/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/4msar/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+[![Anurag's GitHub stats-Dark](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/4msar/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/4msar/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -187,13 +187,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=transparent)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=transparent)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=transparent)
 
 </details>
 
@@ -202,13 +202,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&bg_color=00000000)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&bg_color=00000000)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&bg_color=00000000)
 
 </details>
 
@@ -217,15 +217,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Anurag's GitHub stats-Dark](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/4msar/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/4msar/github-readme-stats#gh-light-mode-only)
+[![Anurag's GitHub stats-Dark](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/4msar/github-readme-stats#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/4msar/github-readme-stats#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Anurag's GitHub stats-Dark](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/4msar/github-readme-stats#gh-dark-mode-only)
-[![Anurag's GitHub stats-Light](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/4msar/github-readme-stats#gh-light-mode-only)
+[![Anurag's GitHub stats-Dark](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/4msar/github-readme-stats#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/4msar/github-readme-stats#gh-light-mode-only)
 
 </details>
 
@@ -237,18 +237,18 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 <picture>
     <source
         srcset="
-            https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=dark
+            https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=dark
         "
         media="(prefers-color-scheme: dark)"
     />
     <source
         srcset="
-            https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true
+            https://github-stats.msar.dev//api?username=4msar&show_icons=true
         "
         media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
     <img
-        src="https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true"
+        src="https://github-stats.msar.dev//api?username=4msar&show_icons=true"
     />
 </picture>
 ```
@@ -258,14 +258,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 <picture>
   <source
-    srcset="https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=dark"
+    srcset="https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true"
+    srcset="https://github-stats.msar.dev//api?username=4msar&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true" />
+  <img src="https://github-stats.msar.dev//api?username=4msar&show_icons=true" />
 </picture>
 
 </details>
@@ -409,10 +409,10 @@ Yay! You are no longer limited to 6 pinned repositories.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
+Endpoint: `api/pin?username=4msar&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/4msar/github-readme-stats)
+[![Readme Card](https://github-stats.msar.dev//api/pin/?username=4msar&repo=github-readme-stats)](https://github.com/4msar/github-readme-stats)
 ```
 
 ### Options
@@ -426,11 +426,11 @@ You can customize the appearance and behavior of the pinned repository card usin
 
 ### Demo
 
-![Readme Card](https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=github-readme-stats)
+![Readme Card](https://github-stats.msar.dev//api/pin/?username=4msar&repo=github-readme-stats)
 
 Use `show_owner` query option to include the repo's owner username
 
-![Readme Card](https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)
+![Readme Card](https://github-stats.msar.dev//api/pin/?username=4msar&repo=github-readme-stats&show_owner=true)
 
 # GitHub Gist Pins
 
@@ -482,10 +482,10 @@ The top languages card shows a GitHub user's most frequently used languages.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/top-langs?username=anuraghazra`
+Endpoint: `api/top-langs?username=4msar`
 
 ```md
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar)](https://github.com/4msar/github-readme-stats)
 ```
 
 ### Options
@@ -525,7 +525,7 @@ By default, only the byte count is used for determining the languages percentage
 - `&size_weight=0&count_weight=1` - Orders by repo count
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&size_weight=0.5&count_weight=0.5)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&size_weight=0.5&count_weight=0.5)
 ```
 
 ### Exclude individual repositories
@@ -533,7 +533,7 @@ By default, only the byte count is used for determining the languages percentage
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&exclude_repo=github-readme-stats,4msar.github.io)
 ```
 
 ### Hide individual languages
@@ -541,7 +541,7 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 You can use `&hide=language1,language2` parameter to hide individual languages.
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&hide=javascript,html)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&hide=javascript,html)
 ```
 
 ### Show more languages
@@ -549,7 +549,7 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&langs_count=8)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&langs_count=8)
 ```
 
 ### Compact Language Card Layout
@@ -557,7 +557,7 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=compact)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=compact)
 ```
 
 ### Donut Chart Language Card Layout
@@ -565,7 +565,7 @@ You can use the `&layout=compact` option to change the card design.
 You can use the `&layout=donut` option to change the card design.
 
 ```md
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=donut)](https://github.com/4msar/github-readme-stats)
 ```
 
 ### Donut Vertical Chart Language Card Layout
@@ -573,7 +573,7 @@ You can use the `&layout=donut` option to change the card design.
 You can use the `&layout=donut-vertical` option to change the card design.
 
 ```md
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=donut-vertical)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=donut-vertical)](https://github.com/4msar/github-readme-stats)
 ```
 
 ### Pie Chart Language Card Layout
@@ -581,7 +581,7 @@ You can use the `&layout=donut-vertical` option to change the card design.
 You can use the `&layout=pie` option to change the card design.
 
 ```md
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=pie)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=pie)](https://github.com/4msar/github-readme-stats)
 ```
 
 ### Hide Progress Bars
@@ -589,7 +589,7 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&hide_progress=true)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&hide_progress=true)
 ```
 
 ### Change format of language's stats
@@ -597,36 +597,36 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 You can use the `&stats_format=bytes` option to display the stats in bytes instead of percentage.
 
 ```md
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&stats_format=bytes)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&stats_format=bytes)
 ```
 
 ### Demo
 
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar)
 
 - Compact layout
 
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=compact)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=compact)
 
 - Donut Chart layout
 
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=donut)](https://github.com/4msar/github-readme-stats)
 
 - Donut Vertical Chart layout
 
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=donut-vertical)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=donut-vertical)](https://github.com/4msar/github-readme-stats)
 
 - Pie Chart layout
 
-[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&layout=pie)](https://github.com/4msar/github-readme-stats)
+[![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&layout=pie)](https://github.com/4msar/github-readme-stats)
 
 - Hidden progress bars
 
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&hide_progress=true)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&hide_progress=true)
 
 - Display bytes instead of percentage
 
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra&stats_format=bytes)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar&stats_format=bytes)
 
 # WakaTime Stats Card
 
@@ -679,57 +679,57 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 - Default
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar)
 
 - Hiding specific stats
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&hide=contribs,issues)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&hide=contribs,issues)
 
 - Showing additional stats
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 - Showing icons
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&hide=issues&show_icons=true)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&hide=issues&show_icons=true)
 
 - Shows GitHub logo instead rank level
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&rank_icon=github)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&rank_icon=github)
 
 - Shows user rank percentile instead of rank level
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&rank_icon=percentile)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&rank_icon=percentile)
 
 - Customize Border Color
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&border_color=2e4058)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&border_color=2e4058)
 
 - Include All Commits
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&include_all_commits=true)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&include_all_commits=true)
 
 - Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&show_icons=true&theme=radical)
 
 - Gradient
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=4msar&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Customizing stats card
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api/?username=anuraghazra&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api/?username=4msar&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Setting card locale
 
-![Anurag's GitHub stats](https://github-stats.msar.dev//api/?username=anuraghazra&locale=es)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api/?username=4msar&locale=es)
 
 - Customizing repo card
 
-![Customized Card](https://github-stats.msar.dev//api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://github-stats.msar.dev//api/pin?username=4msar&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Gist card
 
@@ -741,7 +741,7 @@ Choose from any of the [default themes](#themes)
 
 - Top languages
 
-![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=anuraghazra)
+![Top Langs](https://github-stats.msar.dev//api/top-langs/?username=4msar)
 
 - WakaTime card
 
@@ -760,14 +760,14 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
     <img
         height="200"
         align="center"
-        src="https://github-stats.msar.dev//api?username=anuraghazra"
+        src="https://github-stats.msar.dev//api?username=4msar"
     />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/4msar/convoychat">
     <img
         height="200"
         align="center"
-        src="https://github-stats.msar.dev//api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320"
+        src="https://github-stats.msar.dev//api/top-langs?username=4msar&layout=compact&langs_count=8&card_width=320"
     />
 </a>
 ```
@@ -776,10 +776,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/4msar/github-readme-stats">
-  <img height=200 align="center" src="https://github-stats.msar.dev//api?username=anuraghazra" />
+  <img height=200 align="center" src="https://github-stats.msar.dev//api?username=4msar" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-stats.msar.dev//api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
+<a href="https://github.com/4msar/convoychat">
+  <img height=200 align="center" src="https://github-stats.msar.dev//api/top-langs?username=4msar&layout=compact&langs_count=8&card_width=320" />
 </a>
 
 </details>
@@ -790,13 +790,13 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <a href="https://github.com/4msar/github-readme-stats">
     <img
         align="center"
-        src="https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=github-readme-stats"
+        src="https://github-stats.msar.dev//api/pin/?username=4msar&repo=github-readme-stats"
     />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/4msar/convoychat">
     <img
         align="center"
-        src="https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=convoychat"
+        src="https://github-stats.msar.dev//api/pin/?username=4msar&repo=convoychat"
     />
 </a>
 ```
@@ -805,10 +805,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <summary>:eyes: Show example</summary>
 
 <a href="https://github.com/4msar/github-readme-stats">
-  <img align="center" src="https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=github-readme-stats" />
+  <img align="center" src="https://github-stats.msar.dev//api/pin/?username=4msar&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=convoychat" />
+<a href="https://github.com/4msar/convoychat">
+  <img align="center" src="https://github-stats.msar.dev//api/pin/?username=4msar&repo=convoychat" />
 </a>
 
 </details>
@@ -959,7 +959,7 @@ However, if you are using this project and are happy with it or just want to enc
 
 - Giving proper credit when you use github-readme-stats on your readme, linking back to it. :D
 - Starring and sharing the project. :rocket:
-- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - You can make a one-time donation via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
+- [![paypal.me/4msar](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/4msar) - You can make a one-time donation via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
 
 Thanks! :heart:
 
