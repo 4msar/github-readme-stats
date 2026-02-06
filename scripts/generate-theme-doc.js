@@ -17,7 +17,7 @@ With inbuilt themes, you can customize the look of the card without doing any ma
 Use \`?theme=THEME_NAME\` parameter like so:
 
 \`\`\`md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+![Anurag's GitHub stats](https://github-stats.msar.dev//api?username=anuraghazra&theme=dark&show_icons=true)
 \`\`\`
 
 ## Stats
@@ -42,64 +42,68 @@ ${REPO_CARD_LINKS_FLAG}
 `;
 
 const createRepoMdLink = (theme) => {
-  return `\n[${theme}_repo]: https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=${theme}`;
+    return `\n[${theme}_repo]: https://github-stats.msar.dev//api/pin/?username=anuraghazra&repo=github-readme-stats&cache_seconds=86400&theme=${theme}`;
 };
 const createStatMdLink = (theme) => {
-  return `\n[${theme}]: https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
+    return `\n[${theme}]: https://github-stats.msar.dev//api?username=anuraghazra&show_icons=true&hide=contribs,prs&cache_seconds=86400&theme=${theme}`;
 };
 
 const generateLinks = (fn) => {
-  return Object.keys(themes)
-    .map((name) => fn(name))
-    .join("");
+    return Object.keys(themes)
+        .map((name) => fn(name))
+        .join("");
 };
 
 const createTableItem = ({ link, label, isRepoCard }) => {
-  if (!link || !label) {
-    return "";
-  }
-  return `\`${label}\` ![${link}][${link}${isRepoCard ? "_repo" : ""}]`;
+    if (!link || !label) {
+        return "";
+    }
+    return `\`${label}\` ![${link}][${link}${isRepoCard ? "_repo" : ""}]`;
 };
 
 const generateTable = ({ isRepoCard }) => {
-  const rows = [];
-  const themesFiltered = Object.keys(themes).filter(
-    (name) => name !== (isRepoCard ? "default" : "default_repocard"),
-  );
+    const rows = [];
+    const themesFiltered = Object.keys(themes).filter(
+        (name) => name !== (isRepoCard ? "default" : "default_repocard"),
+    );
 
-  for (let i = 0; i < themesFiltered.length; i += 3) {
-    const one = themesFiltered[i];
-    const two = themesFiltered[i + 1];
-    const three = themesFiltered[i + 2];
+    for (let i = 0; i < themesFiltered.length; i += 3) {
+        const one = themesFiltered[i];
+        const two = themesFiltered[i + 1];
+        const three = themesFiltered[i + 2];
 
-    let tableItem1 = createTableItem({ link: one, label: one, isRepoCard });
-    let tableItem2 = createTableItem({ link: two, label: two, isRepoCard });
-    let tableItem3 = createTableItem({ link: three, label: three, isRepoCard });
+        let tableItem1 = createTableItem({ link: one, label: one, isRepoCard });
+        let tableItem2 = createTableItem({ link: two, label: two, isRepoCard });
+        let tableItem3 = createTableItem({
+            link: three,
+            label: three,
+            isRepoCard,
+        });
 
-    rows.push(`| ${tableItem1} | ${tableItem2} | ${tableItem3} |`);
-  }
+        rows.push(`| ${tableItem1} | ${tableItem2} | ${tableItem3} |`);
+    }
 
-  return rows.join("\n");
+    return rows.join("\n");
 };
 
 const buildReadme = () => {
-  return THEME_TEMPLATE.split("\n")
-    .map((line) => {
-      if (line.includes(REPO_CARD_LINKS_FLAG)) {
-        return generateLinks(createRepoMdLink);
-      }
-      if (line.includes(STAT_CARD_LINKS_FLAG)) {
-        return generateLinks(createStatMdLink);
-      }
-      if (line.includes(REPO_CARD_TABLE_FLAG)) {
-        return generateTable({ isRepoCard: true });
-      }
-      if (line.includes(STAT_CARD_TABLE_FLAG)) {
-        return generateTable({ isRepoCard: false });
-      }
-      return line;
-    })
-    .join("\n");
+    return THEME_TEMPLATE.split("\n")
+        .map((line) => {
+            if (line.includes(REPO_CARD_LINKS_FLAG)) {
+                return generateLinks(createRepoMdLink);
+            }
+            if (line.includes(STAT_CARD_LINKS_FLAG)) {
+                return generateLinks(createStatMdLink);
+            }
+            if (line.includes(REPO_CARD_TABLE_FLAG)) {
+                return generateTable({ isRepoCard: true });
+            }
+            if (line.includes(STAT_CARD_TABLE_FLAG)) {
+                return generateTable({ isRepoCard: false });
+            }
+            return line;
+        })
+        .join("\n");
 };
 
 fs.writeFileSync(TARGET_FILE, buildReadme());

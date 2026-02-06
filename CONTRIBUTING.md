@@ -1,12 +1,12 @@
-# Contributing to [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+# Contributing to [github-readme-stats](https://github.com/4msar/github-readme-stats)
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
--   Reporting [an issue](https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=bug&template=bug_report.yml).
--   [Discussing](https://github.com/anuraghazra/github-readme-stats/discussions) the current state of the code.
--   Submitting [a fix](https://github.com/anuraghazra/github-readme-stats/compare).
--   Proposing [new features](https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=enhancement&template=feature_request.yml).
--   Becoming a maintainer.
+- Reporting [an issue](https://github.com/4msar/github-readme-stats/issues/new?assignees=&labels=bug&template=bug_report.yml).
+- [Discussing](https://github.com/4msar/github-readme-stats/discussions) the current state of the code.
+- Submitting [a fix](https://github.com/4msar/github-readme-stats/compare).
+- Proposing [new features](https://github.com/4msar/github-readme-stats/issues/new?assignees=&labels=enhancement&template=feature_request.yml).
+- Becoming a maintainer.
 
 ## All Changes Happen Through Pull Requests
 
@@ -58,9 +58,9 @@ To contribute your language you need to edit the [src/translations.js](./src/tra
 
 In short, when you submit changes, your submissions are understood to be under the same [MIT License](https://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report issues/bugs using GitHub's [issues](https://github.com/anuraghazra/github-readme-stats/issues)
+## Report issues/bugs using GitHub's [issues](https://github.com/4msar/github-readme-stats/issues)
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/anuraghazra/github-readme-stats/issues/new/choose); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/4msar/github-readme-stats/issues/new/choose); it's that easy!
 
 ## Frequently Asked Questions (FAQs)
 
@@ -72,16 +72,15 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 > **Ans:**
 >
-> -   docs: <https://github.com/anuraghazra/github-readme-stats/#deploy-on-your-own-vercel-instance>
-> -   YT tutorial by codeSTACKr: <https://www.youtube.com/watch?v=n6d4KHSKqGk&feature=youtu.be&t=107>
+> - docs: <https://github.com/4msar/github-readme-stats/#deploy-on-your-own-vercel-instance>
+> - YT tutorial by codeSTACKr: <https://www.youtube.com/watch?v=n6d4KHSKqGk&feature=youtu.be&t=107>
 
 **Q:** Language Card is incorrect
 
 > **Ans:** Please read all the related issues/comments before opening any issues regarding language card stats:
 >
-> -   <https://github.com/anuraghazra/github-readme-stats/issues/136#issuecomment-665164174>
->
-> -   <https://github.com/anuraghazra/github-readme-stats/issues/136#issuecomment-665172181>
+> - <https://github.com/4msar/github-readme-stats/issues/136#issuecomment-665164174>
+> - <https://github.com/4msar/github-readme-stats/issues/136#issuecomment-665172181>
 
 **Q:** How to count private stats?
 
@@ -91,14 +90,14 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 **Great Bug Reports** tend to have:
 
--   A quick summary and/or background
--   Steps to reproduce
-    -   Be specific!
-    -   Share the snapshot, if possible.
-    -   GitHub Readme Stats' live link
--   What actually happens
--   What you expected would happen
--   Notes (possibly including why you think this might be happening or stuff you tried that didn't work)
+- A quick summary and/or background
+- Steps to reproduce
+    - Be specific!
+    - Share the snapshot, if possible.
+    - GitHub Readme Stats' live link
+- What actually happens
+- What you expected would happen
+- Notes (possibly including why you think this might be happening or stuff you tried that didn't work)
 
 People _love_ thorough bug reports. I'm not even kidding.
 
@@ -106,6 +105,6 @@ People _love_ thorough bug reports. I'm not even kidding.
 
 **Great Feature Requests** tend to have:
 
--   A quick idea summary
--   What & why do you want to add the specific feature
--   Additional context like images, links to resources to implement the feature, etc.
+- A quick idea summary
+- What & why do you want to add the specific feature
+- Additional context like images, links to resources to implement the feature, etc.
